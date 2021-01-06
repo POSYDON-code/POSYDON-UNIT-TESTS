@@ -1,0 +1,211 @@
+
+
+ read /projects/b1119/ssb7065/grids_posydon/CO-He_star/grid_pt1/binary/inlist_project
+ read inlist_grid_points
+                                         version_number       11701
+ read inlist_grid_star1_binary_controls
+ set_eos_PC_parameters
+                             mass_fraction_limit_for_PC    1.0000000000000000D-03
+                                       logRho1_PC_limit    2.9990000000000001D+00
+                                       logRho2_PC_limit    2.7999999999999998D+00
+                                     log_Gamma_all_HELM    1.0000000000000000D+00
+                                       log_Gamma_all_PC    1.3010299956000000D+00
+                                 PC_Gamma_start_crystal    1.5000000000000000D+02
+                                  PC_Gamma_full_crystal    1.7500000000000000D+02
+                                               PC_min_Z    9.9900000000000000D-01
+load saved model initial_star1_step1.mod
+
+ change rates preference to           2
+create rate data for r34_pp2
+create rate data for r34_pp3
+create rate data for r_h1_he3_wk_he4
+create rate data for rbe7ec_li7_aux
+create rate data for rbe7pg_b8_aux
+create rate data for rc12_to_n14
+create rate data for rc12ap_aux
+create rate data for rc12ap_to_o16
+create rate data for rf19pa_aux
+create rate data for rf19pg_aux
+create rate data for rn14_to_c12
+create rate data for rn14_to_o16
+create rate data for rn14ag_lite
+create rate data for rn14pg_aux
+create rate data for rn15pa_aux
+create rate data for rn15pg_aux
+create rate data for rna23pa_aux
+create rate data for rna23pg_aux
+create rate data for rne20ap_aux
+create rate data for rne20ap_to_mg24
+create rate data for ro16_to_n14
+create rate data for ro16ap_aux
+create rate data for ro16ap_to_ne20
+create rate data for ro16gp_aux
+create rate data for rpep_to_he3
+                           number not already in cache:          25
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r34_pp2_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/r34_pp2_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r34_pp2_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r34_pp3_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/r34_pp3_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r34_pp3_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r_h1_he3_wk_he4_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/r_h1_he3_wk_he4_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/r_h1_he3_wk_he4_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rbe7ec_li7_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rbe7ec_li7_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rbe7ec_li7_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rbe7pg_b8_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rbe7pg_b8_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rbe7pg_b8_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12_to_n14_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rc12_to_n14_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12_to_n14_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12ap_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rc12ap_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12ap_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12ap_to_o16_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rc12ap_to_o16_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rc12ap_to_o16_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rf19pa_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rf19pa_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rf19pa_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rf19pg_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rf19pg_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rf19pg_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14_to_c12_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn14_to_c12_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14_to_c12_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14_to_o16_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn14_to_o16_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14_to_o16_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14ag_lite_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn14ag_lite_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14ag_lite_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14pg_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn14pg_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn14pg_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn15pa_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn15pa_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn15pa_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn15pg_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rn15pg_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rn15pg_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rna23pa_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rna23pa_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rna23pa_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rna23pg_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rna23pg_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rna23pg_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rne20ap_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rne20ap_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rne20ap_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rne20ap_to_mg24_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rne20ap_to_mg24_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rne20ap_to_mg24_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16_to_n14_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/ro16_to_n14_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16_to_n14_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16ap_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/ro16ap_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16ap_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16ap_to_ne20_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/ro16ap_to_ne20_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16ap_to_ne20_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16gp_aux_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/ro16gp_aux_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/ro16gp_aux_2.bin' skipping
+write /projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rpep_to_he3_2.bin
+ mv failed for './.mesa_temp_cache/rates_cache/rpep_to_he3_2.bin' '/projects/b1119/mesa_sdk/mesa-r11701/data/rates_data/cache/rpep_to_he3_2.bin' skipping
+                    WARNING -- inlist initial_z ignored    1.4200000000000001D-02
+                          using saved initial_z instead    2.0000000000000000D-02
+
+                                        set_initial_age    0.0000000000000000D+00
+                               set_initial_model_number           0
+ change to "approx21.net"
+ change rates preference to           2
+ number of species          21
+ new_rotation_flag T
+                                 new_surface_rotation_v           0    0.0000000000000000D+00    0.0000000000000000D+00
+ net name approx21.net
+ rotation_flag T
+ species
+     1   neut    
+     2   h1      
+     3   prot    
+     4   he3     
+     5   he4     
+     6   c12     
+     7   n14     
+     8   o16     
+     9   ne20    
+    10   mg24    
+    11   si28    
+    12   s32     
+    13   ar36    
+    14   ca40    
+    15   ti44    
+    16   cr48    
+    17   cr56    
+    18   fe52    
+    19   fe54    
+    20   fe56    
+    21   ni56    
+
+ kappa_file_prefix gs98
+ kappa_lowT_prefix lowT_fa05_gs98
+                                        OMP_NUM_THREADS           4
+
+
+
+
+
+                                                     m2    2.7996089263633444D+00
+                                                     m1    2.7483037312603770D+01
+                                 initial_period_in_days    1.6891073086154205D-02
+                             initial_separation_in_Rsun    8.6328901705150196D-01
+                                        jdot_multiplier    1.0000000000000000D+00
+                                                     fr    1.0000000000000000D-02
+
+
+
+ The binary terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'M1+M2' is the total mass of the system (Msun),
+      'M1' is the mass of the primary (Msun)
+      'M2' is the mass of the secondary (Msun)
+      'separ' is the semi-major axis of the orbit (Rsun),
+      'R1' is the radius of the primary (Rsun)
+      'R2' is the radius of the secondary (Rsun)
+      'Porb' is the orbital period (days),
+      'P1' is the rotation period of star 1 (days, zero if not modeling rotation),
+      'P2' is the rotation period of star 2 (days, zero if not modeling rotation),
+      'e' orbital eccentricity,
+      'dot_e' time derivative of e (1/yr),
+      'Eorb' orbital energy G*M1*M2/2*separation (ergs),
+      'M2/M1' mass ratio,
+      'vorb1' orbital velocity of star 1 (km/s),
+      'vorb2' orbital velocity of star 2 (km/s),
+      'pm_i' index of star evolved as point mass, zero if both stars are modeled,
+      'RL1' Roche lobe radius of star 1 (Rsun),
+      'Rl2' Roche lobe radius of star 2 (Rsun),
+      'donor_i' index of star taken as donor,
+      'RL_gap1' (R1-Rl1)/Rl1,
+      'RL_gap2' (R2-Rl2)/Rl2,
+      'dot_Mmt', mass transfer rate (Msun/yr),
+      'dot_M1', time derivative for the mass of star 1 (Msun/yr),
+      'dot_M2', time derivative for the mass of star 2 (Msun/yr),
+      'eff', mass transfer efficiency, computed as -dot_M2/dot_M1 (zero if dot_M1=0),
+      'dot_Medd', Eddington accretion rate (Msun/yr),
+      'L_acc', accretion luminosity when accreting to a point mass (ergs/s),
+      'Jorb', orbital angular momentum (g*cm^2/s)
+      'spin1', spin angular momentum of star 1 (g*cm^2/s),
+      'spin2', spin angular momentum of star 2 (g*cm^2/s),
+      'dot_J', time derivative of Jorb (g*cm^2/s^2),
+      'dot_Jgr', time derivative of Jorb due to gravitational waves (g*cm^2/s^2),
+      'dot_Jml', time derivative of Jorb due to mass loss (g*cm^2/s^2),
+      'dot_Jmb', time derivative of Jorb due to magnetic braking (g*cm^2/s^2),
+      'dot_Jls', time derivative of Jorb due to spin-orbit coupling (g*cm^2/s^2),
+      'rlo_iters', number of iterations for implicit calculation of mass transfer,
+
+ All this and more can be saved in binary_history.data during the run.
+termination code: overflow from L2 (R_L2) surface for q(=Macc/Mdon)<1, donor is star 1
+ saving initial profiles
+save LOGS1/initial_profile.data for model 1
+save photos1/x001 for model 1
+save final_profile_star1.data for model 1
+bin       1  30.238146   0.859115   0.016781  0.000E+00   0.102032          2          1 -1.000E-12  0.000E+00  7.829E+52 -9.072E+39  0.000E+00
+   2.957311  27.438537   1.597807   0.000000  0.000E+00 239.903885   0.495344  2.226E+00 -4.910E-05  2.161E-07  0.000E+00 -8.659E+39  0.000E+00
+ 9.0638E+02   2.799609   0.000000   0.000000 -1.696E+502351.261147   0.178684 -1.000E+00  0.000E+00  0.000E+00  0.000E+00 -4.123E+38          1
+
+save LOGS1/final_profile.data for model 1
+termination code: Terminate because of overflowing initial model
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Si_cntr    Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+          1   8.308274  1.368E+05 -10.827938   5.902488  27.438537   0.000000   0.000000   0.000004   0.985800   0.000000  -5.053902    959      0
+   2.957311   2.499232   0.203524   5.894155   2.046645  -4.308950  27.438537   0.974406   0.006125   0.014200   0.976240   0.019799      5      0
+ 9.0638E+02  18.918739   5.905340   4.181369   6.034967  -7.619818   0.000000   0.013556   0.001672   0.000479  2.376E-02  0.000E+00    varcontrol
+
